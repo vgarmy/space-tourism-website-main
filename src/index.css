@@ -1,1 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:wght@400;600&family=Bellefair&display=swap');
 @import "tailwindcss";
+
+:root{
+    --Blue-900: hsl(230, 35%, 7%);
+    --Blue-300: hsl(231, 77%, 90%);
+
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    --second-font: 'Bellefair, serif'; 
+    --third-font:  "Barlow Condensed, sans-serif";
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.second-font {
+  font-family: var(--second-font);
+}
+
+.third-font {
+  font-family: var(--third-font);
+}
