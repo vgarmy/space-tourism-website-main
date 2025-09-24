@@ -50,7 +50,7 @@ function Technology() {
 
     return (
         <section className="flex flex-col lg:flex-row w-full flex-1">
-            <div className="flex-1 flex-col flex gap-[5rem] lg:pt-10 lg:pb-[150px] px-2 md:px-[150px] order-2 lg:order-1">
+            <div className="flex-1 flex-col flex gap-[5rem] lg:pt-10 md:pb-[150px] px-2 lg:px-[150px] order-2 lg:order-1">
                 <div className="flex flex-col px-4 hidden md:flex">
                     <p className="text-2xl uppercase font-thin text-white text-center lg:text-start mt-10 lg:mt-0" >
                         <b><span className="text-[var(--Blue-300)]">03</span> Space launch 101</b>
@@ -71,12 +71,12 @@ function Technology() {
                             </button>
                         ))}
                     </div>
-                    <div className="flex flex-col gap-6 max-w-prose">
-                        <p className="uppercase tracking-wider text-base text-[var(--Blue-300)]">{current.termology}</p>
-                        <h3 className="text-4xl md:text-6xl uppercase second-font font-thin text-white">
+                    <div className="flex flex-col gap-6">
+                        <p className="uppercase tracking-wider text-base text-[var(--Blue-300)] text-center lg:text-left">{current.termology}</p>
+                        <h3 className="text-4xl md:text-6xl uppercase second-font font-thin text-white text-center lg:text-left">
                             {current.name}
                         </h3>
-                        <p className="tracking-wider text-base text-[var(--Blue-300)]">
+                        <p className="tracking-wider text-base text-[var(--Blue-300)] px-4 lg:px-0 text-center lg:text-left">
                             {current.description}
                         </p>
                     </div>
