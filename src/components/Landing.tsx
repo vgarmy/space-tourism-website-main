@@ -12,6 +12,7 @@ import crewtabletImage from '../assets/images/crew/background-crew-tablet.jpg';
 import crewmobileImage from '../assets/images/crew/background-crew-mobile.jpg';
 import Destination from './Destination';
 import Crew from './Crew';
+import Technology from './Technology';
 
 function Landing() {
     const [bgImage, setBgImage] = useState(desktopImage);
@@ -51,6 +52,7 @@ function Landing() {
                 {currentPage === 'home' && <Home />}
                 {currentPage === 'destination' && <Destination />}
                 {currentPage === 'crew' && <Crew />}
+                {currentPage === 'technology' && <Technology />}
             </div>
         </main>
     );

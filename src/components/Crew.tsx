@@ -39,9 +39,9 @@ function Destination() {
 
     return (
         <section className="flex flex-col lg:flex-row w-full flex-1">
-            <div className="flex-1 flex flex-col text-white gap-6 px-2 md:px-[100px] lg:px-[150px] py-10 md:py-[44px] lg:pt-0 lg:pb-[150px] text-center lg:text-start order-2 md:order-1">
+            <div className="flex-1 flex flex-col text-white gap-6 px-2 md:px-[100px] lg:px-[150px] py-10 md:py-[54px] lg:pt-10 lg:pb-[150px] text-center lg:text-start order-2 md:order-1">
                 <div className="flex flex-col px-4 mb-10 hidden md:flex">
-                    <p className="text-2xl uppercase font-thin text-white text-center lg:text-start lg:mt-10 lg:mt-0">
+                    <p className="text-2xl uppercase font-thin text-white text-center lg:text-start">
                         <b><span className="text-[var(--Blue-300)]">02</span> Meet your crew</b>
                     </p>
                 </div>
